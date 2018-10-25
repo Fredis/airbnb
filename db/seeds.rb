@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+require 'faker'
+
+10.times do |index|
+	dogsitters = Dogsitter.create!(name: Faker::Superhero.name)
+	dog = Dog.create!(name: Faker::TwinPeaks.character)
+	city = City.create!(city_name: Fakre::GameOfThrones.city)
+end
