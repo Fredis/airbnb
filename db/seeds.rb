@@ -18,5 +18,5 @@ end
 end
 
 10.times do |index|
-	strolls = Stroll.create!(date: "2018111 #{Faker::Number.between(5, 23)}:#{Faker::Number.between(1, 59)}:00")
+	strolls = Stroll.create!(date: "2018111 #{Faker::Number.between(5, 23)}:#{Faker::Number.between(1, 59)}:00", dogsitter_id: Faker::Number.between(1,10))
 end
