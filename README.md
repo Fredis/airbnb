@@ -1,4 +1,4 @@
-# README : AIRDOGNB
+# README : AIRBNDOG (WHOUAF !)
 
 Bonjour! L'équipe est composée de Fred (FredS), Axel Pélerin et Juliette Audema. 
 
@@ -30,6 +30,6 @@ Dans ce dossier vous allez trouver l'arborescence classique des apps Ruby on Rai
 
 1) Nous avons créé les models et les tables associés pour les objets "City", "Dog", "Dogsitter", "City" et "Stroll".
 
-2) Nous les avons réliés avec une assoication "has_and_belongs_to_many".
+2) Nous les avons réliés avec des relations "has_many", "belongs_to" et "has_and_belongs_to_many".
 
 3) Nous avons aussi injecté directement des données dans la base de données à partir du fichier seeds.rb tout en utilisant la Gem Faker afin d'avoir des données plus réalistes.
